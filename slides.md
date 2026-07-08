@@ -162,25 +162,148 @@ Currently five full-time staff support operations on I15-1
 
 ---
 
+![masked](./assets/i15-1.png)
+## SAC Review
+10th-11th September 2025
 
-## Portfolio Review
-### Conclusions from the SAC Review
+---
+<style scoped>
+h2 { margin-bottom: 8px; }
+.sac-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px 20px;
+  margin-top: 10px;
+}
+.sac-person { text-align: center; }
+.sac-person img, .sac-person .nophoto {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #e0e0e0;
+}
+.sac-person.chair img, .sac-person.chair .nophoto {
+  border: 3px solid #0078A3;
+  box-shadow: 0 0 0 3px rgba(0,120,163,0.15);
+}
+.nophoto { background: linear-gradient(135deg, #d0d0d0, #b8b8b8); }
+.sac-name { font-size: 0.70em; font-weight: bold; margin-top: 7px; line-height: 1.2; }
+.sac-affil { font-size: 0.56em; color: #666; margin-top: 3px; line-height: 1.3; }
+.chair-label { font-size: 0.52em; color: #0078A3; font-style: italic; display: block; }
+.sacmember-label { font-size: 0.52em; color: #0078A3; font-style: italic; display: block; }
+</style>
 
-- I15-1 serves the total scattering and PDF community across materials science, chemistry, and physics
-- **[N] user sessions** delivered in the past year; **[N] publications** acknowledged the beamline
-- SAC commended: [highlight 1], [highlight 2]
-- SAC recommendations: [recommendation 1], [recommendation 2]
-- Actions taken or planned in response: [action 1], [action 2]
+### The Review Panel
+
+<div class="sac-grid">
+  <div class="sac-person chair">
+    <img src="./assets/sac_pulham.jpeg" alt="Colin Pulham">
+    <div class="sac-name">Colin Pulham<span class="chair-label">Chair</span></div>
+    <div class="sac-affil">University of Edinburgh</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_brewster.jpg" alt="Aaron Brewster">
+    <div class="sac-name">Aaron Brewster</div>
+    <div class="sac-affil">Lawrence Berkeley National Laboratory</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_chapman.png" alt="Karena Chapman">
+    <div class="sac-name">Karena Chapman</div>
+    <div class="sac-affil">Stony Brook University</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_dinnebier.jpeg" alt="Robert Dinnebier">
+    <div class="sac-name">Robert Dinnebier</div>
+    <div class="sac-affil">Max Planck Institute for Solid State Research</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_hatcher.jpeg" alt="Lauren Hatcher">
+    <div class="sac-name">Lauren Hatcher</div>
+    <div class="sac-affil">Cardiff University</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_levin.jpg" alt="Igor Levin">
+    <div class="sac-name">Igor Levin</div>
+    <div class="sac-affil">NIST</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_rivers.jpg" alt="Mark Rivers">
+    <div class="sac-name">Mark Rivers</div>
+    <div class="sac-affil">Univ. of Chicago / Argonne</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_robertson.jpeg" alt="Karen Robertson">
+    <div class="sac-name">Karen Robertson</div>
+    <div class="sac-affil">University of Nottingham</div>
+  </div>
+  <div class="sac-person">
+    <img src="./assets/sac_rosseinsky.jpg" alt="Matt Rosseinsky">
+    <div class="sac-name">Matt Rosseinsky<span class="sacmember-label">SAC rep.</span></div>
+    <div class="sac-affil">University of Liverpool</div>
+  </div>
+</div>
+
 
 ---
 
-## Motion Control Upgrade
-### RIO System Replacement
+### Overall Assessment
+- Leading international PDF facility
+- Producing world-class science
+- Strong publication output and citation impact
+- Healthy user demand (~1.4× oversubscribed)
+- Strong alignment with UK priorities in energy and materials research
 
-- Legacy NI-RIO motion controllers reaching end of support and reliability threshold
-- Replaced with [new system] — improved reliability and tighter GDA integration
-- **Status**: [completed / in progress — timeline]
-- User impact: [e.g. minimal downtime during switchover; improved axis performance and repeatability]
+---
+### Strengths Highlighted
+- High-throughput operation and mail-in access
+- Robotic sample handling capability
+- Wide range of in situ / operando environments
+- Unique complementarity with ISIS neutron PDF measurements
+- Innovative methods and instrumentation development
+
+---
+
+### Future Opportunities
+- ARC detector programme identified as a key priority
+- Hazardous gas capability would enable new science areas
+- Increased automation of data reduction and analysis
+- Continued growth of mail-in and remote access
+- Further enhancement of user workflows and throughput
+
+---
+
+### Key Take-Home Message
+
+> _I15-1 has established itself as a leading facility for total scattering and PDF studies._
+
+- World-leading science
+- Strong user community
+- Exciting developments underway
+- Well positioned for future growth
+
+
+---
+
+![masked](./assets/i15-1.png)
+## Upgrades, etc.
+
+---
+
+### Motion/RIO Controller Upgrade
+
+- Successfully completed a major modernisation of the I15/I15-1 controls infrastructure.
+- Replaced ageing hardware that had become increasingly difficult to maintain.
+- Increased reliability and operational independence of both beamlines.
+- Reduced technical risk and improved maintainability ahead of Diamond-II.
+- Provided a flexible platform for future automation, instrumentation and scientific capability upgrades.
+
+
+---
+
+### New Chemistry Lab
+
 
 ---
 
