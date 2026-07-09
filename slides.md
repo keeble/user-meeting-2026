@@ -286,33 +286,49 @@ h2 { margin-bottom: 8px; }
 
 ---
 
-![masked](./assets/i15-1.png)
-## Upgrades, etc.
+![masked w:550](./assets/rio.jpeg)
+
+## Upgrades
 
 ---
+![bg right:30%](./assets/motion-rack.jpeg)
+### Motion/RIO Controllers
 
-### Motion/RIO Controller Upgrade
-
-- Successfully completed a major modernisation of the I15/I15-1 controls infrastructure.
-- Replaced ageing hardware that had become increasingly difficult to maintain.
-- Increased reliability and operational independence of both beamlines.
-- Reduced technical risk and improved maintainability ahead of Diamond-II.
-- Provided a flexible platform for future automation, instrumentation and scientific capability upgrades.
-
+- Successfully completed a major modernisation of the I15/I15-1 controls infrastructure
+- Increased reliability and operational independence of both beamlines
 
 ---
 
 ### New Chemistry Lab
-
+- Recently extended and refurbished lab 83b
+- Now have access to ducted fume hoods much closer to the beamline
+![bg left:45% w:550](./assets/lab83.jpeg)
 
 ---
 
-## Wiggler Update
+### Wiggler(s) - new
 
-- [Status — e.g. scheduled maintenance, unplanned intervention, hardware upgrade]
-- Changes to beam properties: [flux, energy range, stability]
-- Impact on accessible science: [Q-range, sample size, throughput]
-- Current status: [operational / in repair / upgraded and re-commissioned]
+![bg left:40%](./assets/wiggler_new.png)
+
+- in late 2025 DLS took delivery of a spare wiggler
+- It's has higher potential output so commissioning includes health physics etc.
+
+---
+
+### Wiggler(s) - current
+
+- During the May shutdown a cooling water fault caused a pressure increase
+- An incorrectly calibrated PRV caused a burst disk to rupture
+- Identification of issue was stymied by mandatory 5-year electrical testing
+
+![bg right:30% w:370](./assets/wiggler_failure.jpg)
+
+---
+
+### Wiggler(s) - current
+- [insert news here]
+![bg right:60%](./assets/wiggler_current.jpeg)
+
 
 ---
 
