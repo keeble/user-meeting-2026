@@ -28,54 +28,42 @@ I15-1 User Meeting, July 2026
 
 ---
 
-admin
-
----
-
-schedule
-
----
-
-contents probably
+```bash
+grep "^# " slides.md
+```
 
 ---
 
 ![bg](./assets/dls.png)
-## Introduction
+# Introduction
 
 ---
 
 ### What is I15-1?
 
-![bg right:42%](./assets/beamline_layout.jpeg)
+![bg right:25% w:500](./assets/beamline_layout.jpeg)
 
 The **X-ray Pair Distribution Function (XPDF)** beamline
 
 - High-energy beam: **40, 65, 76 keV** (λ = 0.31, 0.19, 0.16 Å)
-- Wiggler source — high flux at hard X-ray energies
-- Total X-ray scattering: captures Bragg **and** diffuse scattering
-- PDF analysis reveals **local atomic structure** in crystalline, nanocrystalline, and amorphous materials
-- Science areas: materials chemistry, battery research, pharmaceuticals, earth science, catalysis
+- Total X-ray scattering: captures Bragg and diffuse scattering
 
 ---
 
-### Supported Sample Environments
+### Sample Environments
 
 ![bg right:32%](./assets/sample_puck.jpg)
 
-**Standard:**
 - Capillaries (spinning or static), flat plate geometry
-- Robotic sample changer — 22-sample pucks, up to 96 positions
+- Robotic sample changer — 22-sample pucks, up to 440 positions
+- Cryostream (80–500 K) · hot-air blower (RT-900°C)
 
-**Temperature:**
-- Cryostream (80–500 K) · hot-air blower · resistance furnace (~1200°C)
+---
 
-**High pressure:**
-- Diamond anvil cells (DAC) — multi-GPa range
-
-**In-situ / reaction:**
+### Sample Environments - Complex
 - Electrochemical cells (battery cycling)
 - Gas flow and reaction cells (catalysis, reaction following)
+- One-offs and user supplied equipment
 
 ---
 
@@ -122,6 +110,8 @@ Currently five full-time staff support operations on I15-1
 <div class="tech">
 <strong>Technical & engineering:</strong> Stuart Gurney · Andrew Fairley · Peter Smith · Niamh Dougan · Dom Oram
 </div>
+<div class="tech">
+<strong>PhD students:</strong> Niels Schreiner · Sophie Ray · Gayathri Manoj</div>
 
 ---
 
@@ -163,7 +153,7 @@ Currently five full-time staff support operations on I15-1
 ---
 
 ![masked](./assets/i15-1.png)
-## SAC Review
+# SAC Review
 10th-11th September 2025
 
 ---
@@ -245,7 +235,6 @@ h2 { margin-bottom: 8px; }
   </div>
 </div>
 
-
 ---
 
 ### Overall Assessment
@@ -283,12 +272,10 @@ h2 { margin-bottom: 8px; }
 - Exciting developments underway
 - Well positioned for future growth
 
-
 ---
 
-![masked w:550](./assets/rio.jpeg)
-
-## Upgrades
+![masked w:520](./assets/rio.jpeg)
+# Upgrades
 
 ---
 ![bg right:30%](./assets/motion-rack.jpeg)
@@ -303,6 +290,13 @@ h2 { margin-bottom: 8px; }
 - Recently extended and refurbished lab 83b
 - Now have access to ducted fume hoods much closer to the beamline
 ![bg left:45% w:550](./assets/lab83.jpeg)
+
+---
+
+![bg right:40% w:400](./assets/trolley.jpg)
+### New Gas Trolley
+- We've built our own gas trolley
+- Six MFCs and various mixing capabilities
 
 ---
 
@@ -326,29 +320,96 @@ h2 { margin-bottom: 8px; }
 ---
 
 ### Wiggler(s) - current
-- [insert news here]
-![bg right:60%](./assets/wiggler_current.jpeg)
-
-
----
-
-## ARC Detector
-### Future Direction for XPDF Data Collection
-
-- Custom CdTe photon-counting detector, purpose-built for I15-1
-- **55 µm pixels** — 25 Hz continuous collection, 500 Hz burst mode
-- Currently undergoing online commissioning
-- What it enables: faster in-situ experiments, improved signal-to-noise, access to smaller samples
-- Longer-term roadmap: [planned capability extensions, software integration milestones]
+>_As far as we can test before filling with LHe the wiggler looks fine._
+![bg left:56%](./assets/wiggler_current.jpeg)
 
 ---
 
-## Eiger Detector
+# Detectors
+![masked w:550](./assets/arc_inside.jpeg)
 
-- [Current Eiger model, any hardware or firmware updates]
-- Continues to serve as the [primary / complementary] detector for [use cases]
-- ARC and Eiger roles going forward: [complementary — Eiger for X, ARC for Y] or [transitional plan]
-- [Anything users need to know about requesting one vs. the other]
+---
+
+<style scoped>
+  h2, p, li { color: white !important;  }
+</style>
+
+![bg](./assets/varex.png)
+
+## Varex (_née_ Perkin Elmer) Detectors
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :white_check_mark: big
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :white_check_mark: heavy
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :white_check_mark: cheap
+
+---
+
+![](./assets/detectors.jpeg)
+ <!-- _footer: https://doi.org/10.1148/radiol.2018172656--> 
+
+---
+On the 10th July 2018 the CEO signed a PPF for an ambitious angularly-resolved CdTe (ARC) hybrid photon counting detector
+
+![bg left](./assets/i15-1.png)
+
+---
+
+### ARC detector issues
+![](./assets/arc_flat.png)
+
+---
+
+### A Two-pronged Attack
+1. Slightly reduce the ambition of the ARC
+2. Perfect the data acquisition and processing required using a commerical alternative
+
+---
+
+![bg vspace:1000](./assets/new_detexctors.jpg)
+
+---
+
+ &nbsp;| model | sensor <br>thickness | pixel<br>size | frame<br>rate |  coverage | width
+:-----:|:------|:-----|:------|:------|:---|---
+![h:150](./assets/arc.jpg)| ARC CdTe| 1000&nbsp;um | 55&nbsp;um | 25&nbsp;Hz | 109° or 18° | 42.2&nbsp;mm
+![h:150](./assets/eiger.webp) | Eiger2 X CdTe | 750&nbsp;um | 75&nbsp;um | 4.5&nbsp;kHz | 17° | 38.4&nbsp;mm
+
+---
+<style scoped>
+h3 {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    right: 75px;
+  }
+</style>
+### Eiger simulations of scattering from LaB<sub>6</sub>
+
+![bg h:500](./assets/lab6.png)
+
+![bg h:450](./assets/eiger_coverage_76keV.png)
+
+---
+
+![bg w:900](./assets/silicon_single_shot.png)
+
+---
+
+### Current Status: Eiger
+- is in the hutch
+- acquisition software is deployed
+- installation on the endstation scheduled for August
+
+---
+
+### Current Status: ARClet
+- new chassis is being designed, and we'll build multiple
+- acquisition software is deployed
+- installation on the endstation scheduled for September
+
+---
+
+![masked](./assets/s)
+# Software
 
 ---
 
@@ -363,18 +424,25 @@ h2 { margin-bottom: 8px; }
 
 ---
 
-## Critical Upgrades
-
-| Upgrade | Status | User Impact |
-|---------|--------|-------------|
-| [Item 1] | Complete | [e.g. improved stability] |
-| [Item 2] | In progress | [e.g. brief restricted access] |
-| [Item 3] | Planned | [e.g. scheduled shutdown] |
-
-- Priority work to ensure reliable operation through the end of Diamond-I
-- [Note any scheduled shutdowns or periods of reduced capacity]
+# Critical<br>Upgrades
+![masked w:850](./assets/optics_hutch.jpeg)
 
 ---
+
+crystal cage
+
+---
+
+front end components, primary slits
+
+---
+
+# User Access
+![bg](./assets/dls.png)
+Access no
+
+---
+
 
 ## Access Through End of Diamond-I
 
@@ -396,6 +464,15 @@ h2 { margin-bottom: 8px; }
 - Stay informed: [mailing list, website, contact]
 
 ---
+
+funding?
+
+
+---
+
+
+
+
 
 
 
