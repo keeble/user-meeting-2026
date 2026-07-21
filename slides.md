@@ -660,11 +660,6 @@ h2 { margin-bottom: 40px; }
   </div>
 </div>
 
-
-
-
-
-
 ---
 ![bg](./assets/stfc.png)
 
@@ -673,8 +668,8 @@ h2 { margin-bottom: 40px; }
 
 ---
 
-User Webinar on Wednesday 14 October 2026 at 13:00 (UTC)
-![bg left ](./assets/diamond-user-webinar.png)
+Register for our user webinar on Wednesday 14 October 2026 at 13:00 (UTC)
+![bg left:55%](./assets/diamond-user-webinar.png)
 
 ---
 
@@ -687,8 +682,7 @@ User Webinar on Wednesday 14 October 2026 at 13:00 (UTC)
 .team-role { font-size: 0.6em; color: #555; margin-top: 2px; line-height: 1.3; }
 </style>
 
-- In the meantime, please reach out to the Diamond User Committee to find out how you can support and advocate for Diamond.
-&nbsp;
+In the meantime, please reach out to the Diamond User Committee to find out how you can support and advocate for Diamond.
 <div class="team-grid">
   <div class="team-item">
     <img src="./assets/duc-luke-daniels.webp" alt="Luke Daniels">
@@ -703,6 +697,18 @@ User Webinar on Wednesday 14 October 2026 at 13:00 (UTC)
     <div class="team-role">g.s.nichol@ed.ac.uk</div>
   </div>
 </div>
+
+---
+
+## Summary
+- I15-1 has a strong programme of upgrades underway
+- We're realistic that commissioning new systems brings challenges — we're planning carefully and building in contingency
+
+---
+
+## Summary
+- Our goal: a highly productive AP41 and a beamline well-positioned for Diamond-II
+- This doesn't happen without you — thank you for your continued support, feedback, and proposals
 
 ---
 
