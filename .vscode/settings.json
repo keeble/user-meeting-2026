@@ -1,5 +1,6 @@
 {
     "workbench.settings.editor": "json",
+    "markdown.marp.enableHtml": true,
     "markdown.marp.themes": [
         "https://rainbowflesh.github.io/css/rose-pine-dawn.css",
         "https://rainbowflesh.github.io/css/rose-pine-moon.css",
