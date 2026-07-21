@@ -112,7 +112,7 @@ Currently five full-time staff support operations on I15-1
 </div>
 
 <div class="tech">
-<strong>Technical & engineering:</strong> Stuart Gurney · Andrew Fairley · Peter Smith · Niamh Dougan · Dom Oram
+<strong>Technical, engineering, and software:</strong> Stuart Gurney · Andrew Fairley · Peter Smith · Niamh Dougan · Dom Oram
 </div>
 <div class="tech">
 <strong>PhD students:</strong> Niels Schreiner · Sophie Ray · Gayathri Manoj</div>
