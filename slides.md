@@ -50,7 +50,7 @@ The **X-ray Pair Distribution Function (XPDF)** beamline
 
 ---
 
-### Sample Environments
+### Sample environments
 
 ![bg right:32%](./assets/sample_puck.jpg)
 
@@ -60,7 +60,7 @@ The **X-ray Pair Distribution Function (XPDF)** beamline
 
 ---
 
-### Sample Environments - Complex
+### Sample environments - complex
 - Electrochemical cells (battery cycling)
 - Gas flow and reaction cells (catalysis, reaction following)
 - One-offs and user supplied equipment
@@ -77,7 +77,7 @@ The **X-ray Pair Distribution Function (XPDF)** beamline
 .tech { margin-top: 22px; font-size: 0.65em; color: #444; text-align: center; }
 </style>
 
-### The Beamline Team
+### The beamline team
 Currently five full-time staff support operations on I15-1
 <div class="team-grid">
   <div class="team-item">
@@ -123,7 +123,7 @@ Currently five full-time staff support operations on I15-1
 .bl-name { font-size: 0.68em; margin-top: 3px; color: #444; }
 </style>
 
-### The Crystallography Science Group
+### The crystallography science group
 
 **Group leader:** Philip Chater
 
@@ -185,7 +185,7 @@ h2 { margin-bottom: 8px; }
 .sacmember-label { font-size: 0.52em; color: #0078A3; font-style: italic; display: block; }
 </style>
 
-### The Review Panel
+### The review panel
 
 <div class="sac-grid">
   <div class="sac-person chair">
@@ -237,7 +237,7 @@ h2 { margin-bottom: 8px; }
 
 ---
 
-### Overall Assessment
+### Overall assessment
 - Leading international PDF facility
 - Producing world-class science
 - Strong publication output and citation impact
@@ -245,7 +245,7 @@ h2 { margin-bottom: 8px; }
 - Strong alignment with UK priorities in energy and materials research
 
 ---
-### Strengths Highlighted
+### Strengths highlighted
 - High-throughput operation and mail-in access
 - Robotic sample handling capability
 - Wide range of in situ / operando environments
@@ -254,7 +254,7 @@ h2 { margin-bottom: 8px; }
 
 ---
 
-### Future Opportunities
+### Future opportunities
 - ARC detector programme identified as a key priority
 - Hazardous gas capability would enable new science areas
 - Increased automation of data reduction and analysis
@@ -263,7 +263,7 @@ h2 { margin-bottom: 8px; }
 
 ---
 
-### Key Take-Home Message
+### Key take-home message
 
 > _I15-1 has established itself as a leading facility for total scattering and PDF studies._
 
@@ -279,14 +279,14 @@ h2 { margin-bottom: 8px; }
 
 ---
 ![bg right:30%](./assets/motion-rack.jpeg)
-### Motion/RIO Controllers
+### Motion/RIO controllers
 
 - Successfully completed a major modernisation of the I15/I15-1 controls infrastructure
 - Increased reliability and operational independence of both beamlines
 
 ---
 
-### New Chemistry Lab
+### New chemistry lab
 - Recently extended and refurbished lab 83b
 - Now have access to ducted fume hoods much closer to the beamline
 ![bg left:45% w:550](./assets/lab83.jpeg)
@@ -294,7 +294,7 @@ h2 { margin-bottom: 8px; }
 ---
 
 ![bg right:40% w:400](./assets/trolley.jpg)
-### New Gas Trolley
+### New gas trolley
 - We've built our own gas trolley
 - Six MFCs and various mixing capabilities
 
@@ -358,8 +358,8 @@ On the 10th July 2018 the CEO signed a PPF for an ambitious angularly-resolved C
 
 ---
 
-### A Two-pronged Attack
-1. Slightly reduce the ambition of the ARC
+### A Two-pronged attack
+1. Slightly reduce the ambition of the ARC in the short to medium term
 2. Perfect the data acquisition and processing required using a commerical alternative
 
 ---
@@ -370,8 +370,8 @@ On the 10th July 2018 the CEO signed a PPF for an ambitious angularly-resolved C
 
  &nbsp;| model | sensor <br>thickness | pixel<br>size | frame<br>rate |  coverage | width
 :-----:|:------|:-----|:------|:------|:---|---
-![h:150](./assets/arc.jpg)| ARC CdTe| 1000&nbsp;um | 55&nbsp;um | 25&nbsp;Hz | 109° or 18° | 42.2&nbsp;mm
 ![h:150](./assets/eiger.webp) | Eiger2 X CdTe | 750&nbsp;um | 75&nbsp;um | 4.5&nbsp;kHz | 17° | 38.4&nbsp;mm
+![h:150](./assets/arc.jpg)| ARC CdTe| 1000&nbsp;um | 55&nbsp;um | 25&nbsp;Hz | 109° or 18° | 42.2&nbsp;mm
 
 ---
 <style scoped>
@@ -390,37 +390,141 @@ h3 {
 
 ---
 
-![bg w:900](./assets/silicon_single_shot.png)
+![bg left:60% w:900](./assets/silicon_single_shot.png)
+_A Perkin Elmer Collection from 1mm silicon projected onto the Eiger_
 
 ---
 
-### Current Status: Eiger
+<style scoped>
+.eiger-photo {
+  position: absolute;
+  top: 48px; right: 60px;
+  width: 255px; height: 255px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.eiger-photo img { width: 100%; height: 100%; object-fit: cover; }
+</style>
+
+<div class="eiger-photo"><img src="./assets/eiger.jpeg" alt="Eiger detector"></div>
+
+### Current status: Eiger
 - is in the hutch
 - acquisition software is deployed
 - installation on the endstation scheduled for August
 
 ---
 
-### Current Status: ARClet
+<style scoped>
+.eiger-photo {
+  position: absolute;
+  top: 48px; right: 60px;
+  width: 255px; height: 255px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.eiger-photo img { width: 100%; height: 100%; object-fit: cover; }
+</style>
+
+<div class="eiger-photo"><img src="./assets/MiniARCbox.png" alt="ARC detector"></div>
+
+### Current status: ARClet
 - new chassis is being designed, and we'll build multiple
 - acquisition software is deployed
 - installation on the endstation scheduled for September
 
 ---
 
-![masked](./assets/s)
+![masked w:600](./assets/code.png)
 # Software
 
 ---
 
-## Waffle
-### Deploying the Diamond-II Software Stack on I15-1
-
+## Project Waffle
+**Deploying the Diamond-II Software Stack on I15-1**
 - Internal project to run the Diamond-II software stack on I15-1 in production
 - **Two goals**: prove the stack works on real experiments; improve the beamline for users now
+
+---
+
+## Current Status
+
+<style scoped>
+.status-cards { display: flex; gap: 28px; margin-top: 28px; }
+.card {
+  flex: 1; text-align: center; padding: 28px 16px;
+  background: rgba(0,120,163,0.07);
+  border-radius: 14px; border: 1.5px solid rgba(0,120,163,0.25);
+}
+.card svg { width: 56px; height: 56px; display: block; margin: 0 auto 14px; }
+.card-title { font-size: 0.88em; font-weight: bold; margin-bottom: 8px; }
+.card-desc { font-size: 0.65em; color: #555; line-height: 1.5; }
+</style>
+
+<div class="status-cards">
+
+  <div class="card">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="24" r="6" fill="#0078A3"/>
+      <circle cx="24" cy="24" r="13" fill="none" stroke="#0078A3" stroke-width="3" stroke-dasharray="5.5 3"/>
+      <circle cx="24" cy="7"  r="3.5" fill="#0078A3"/>
+      <circle cx="24" cy="41" r="3.5" fill="#0078A3"/>
+      <circle cx="7"  cy="24" r="3.5" fill="#0078A3"/>
+      <circle cx="41" cy="24" r="3.5" fill="#0078A3"/>
+    </svg>
+    <div class="card-title">Integrated Workflow</div>
+    <div class="card-desc">Robot loads, sample alignment, and Eiger collections running entirely within the new framework</div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <rect x="8"  y="10" width="32" height="5" rx="2.5" fill="#0078A3"/>
+      <rect x="8"  y="21" width="32" height="5" rx="2.5" fill="#0078A3"/>
+      <rect x="8"  y="32" width="20" height="5" rx="2.5" fill="#0078A3"/>
+      <circle cx="38" cy="34.5" r="6" fill="none" stroke="#0078A3" stroke-width="3"/>
+      <line x1="43" y1="40" x2="47" y2="44" stroke="#0078A3" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <div class="card-title">Collection Queuing</div>
+    <div class="card-desc">Swathes of planned collections can be queued and run autonomously</div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <rect x="5" y="11" width="38" height="27" rx="3" fill="none" stroke="#0078A3" stroke-width="3"/>
+      <polyline points="5,14 24,29 43,14" fill="none" stroke="#0078A3" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    </svg>
+    <div class="card-title">Mail-in Experiments</div>
+    <div class="card-desc">First deployment target: fully automated mail-in experiment support</div>
+  </div>
+
+</div>
+
+---
+
+### What you will notice - web forms
+![h:450](./assets/sample-service.png) ![h:450](./assets/experiment-planning.png)
+
+---
+
+### What you will notice - differently shaped data
+- Eiger and/or ARClet data will look different to Perkin Elmer data
+- We won't unilaterally choose to use the new detetcors until we're happy with the performance
+---
+
+![bg left:40% w:400](./assets/puck-box.jpg)
+### What you will notice - sending pucks
+We're be starting to send pucks out for you to load the samples into in your home lab
+_(we'll be starting with non-hazardous, local samples!)_
+
+---
+
+
 - Current status: [components deployed / in testing / rolled out to users]
 - What users will notice: [improved automation, data acquisition, GDA interface — fill in specifics]
-- I15-1 as pathfinder — your feedback will shape the Diamond-II user experience across the facility
 
 ---
 
@@ -465,7 +569,7 @@ Access no
 
 ---
 
-funding?
+funding? the news, the email from gianluigi
 
 
 ---
