@@ -102,10 +102,10 @@ Currently five full-time staff support operations on I15-1
   <div class="team-item">
     <img src="./assets/team_tobie.png" alt="Tobias Bird"> 
     <div class="team-name">Tobias Bird</div>
-    <div class="team-role">Post Doctoral Research Associate</div>
+    <div class="team-role">Postdoctoral Research Associate</div>
   </div>
   <div class="team-item">
-    <img src="./assets/team_finley.jpeg" alt="Tobias Bird"> 
+    <img src="./assets/team_finley.jpeg" alt="Finley Belcher"> 
     <div class="team-name">Finley Belcher</div>
     <div class="team-role">Senior Beamline Technician</div>
   </div>
@@ -326,8 +326,8 @@ h2 { margin-bottom: 8px; }
 
 ![bg left:40%](./assets/wiggler_new.png)
 
-- in late 2025 DLS took delivery of a spare wiggler
-- It's has higher potential output so commissioning includes health physics etc.
+- In late 2025, DLS took delivery of a spare wiggler
+- It has higher potential output so commissioning includes health physics etc.
 
 ---
 
@@ -335,7 +335,7 @@ h2 { margin-bottom: 8px; }
 
 - During the May shutdown a cooling water fault caused a pressure increase
 - An incorrectly calibrated PRV caused a burst disk to rupture
-- Identification of issue was stymied by mandatory 5-year electrical testing
+- Identification of the issue was stymied by mandatory 5-year electrical testing
 
 ![bg right:30% w:370](./assets/wiggler_failure.jpg)
 
@@ -369,7 +369,7 @@ h2 { margin-bottom: 8px; }
  <!-- _footer: https://doi.org/10.1148/radiol.2018172656--> 
 
 ---
-On the 10th July 2018 the CEO signed a PPF for an ambitious angularly-resolved CdTe (ARC) hybrid photon counting detector
+On the 10th July 2018, the CEO signed a proposal for an ambitious angularly-resolved CdTe (ARC) hybrid photon counting detector
 
 ![bg left](./assets/i15-1.png)
 
@@ -382,7 +382,7 @@ On the 10th July 2018 the CEO signed a PPF for an ambitious angularly-resolved C
 
 ### A Two-pronged attack
 1. Slightly reduce the ambition of the ARC in the short to medium term
-2. Perfect the data acquisition and processing required using a commerical alternative
+2. Perfect the data acquisition and processing required using a commercial alternative
 
 ---
 
@@ -413,7 +413,7 @@ h3 {
 ---
 
 ![bg left:60% w:900](./assets/silicon_single_shot.png)
-_A Perkin Elmer Collection from 1mm silicon projected onto the Eiger_
+_A Perkin Elmer collection from 1 mm silicon projected onto the Eiger_
 
 ---
 
@@ -534,12 +534,12 @@ _A Perkin Elmer Collection from 1mm silicon projected onto the Eiger_
 
 ### What you will notice - differently shaped data
 - Eiger and/or ARClet data will look different to Perkin Elmer data
-- We won't unilaterally choose to use the new detetcors until we're happy with the performance
+- We won't unilaterally choose to use the new detectors until we're happy with the performance
 ---
 
 ![bg left:40% w:400](./assets/puck-box.jpg)
 ### What you will notice - sending pucks
-We'll be starting to send pucks out for you to load the samples into in your home lab
+We'll be starting to send pucks out for you to load the samples into at your home lab
 _(we'll be starting with non-hazardous, local samples!)_
 
 ---
