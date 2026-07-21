@@ -380,7 +380,7 @@ On the 10th July 2018, the CEO signed a proposal for an ambitious angularly-reso
 
 ---
 
-### A Two-pronged attack
+### A two-pronged attack
 1. Slightly reduce the ambition of the ARC in the short to medium term
 2. Perfect the data acquisition and processing required using a commercial alternative
 
@@ -473,8 +473,7 @@ _A Perkin Elmer collection from 1 mm silicon projected onto the Eiger_
 
 ---
 
-## Current Status
-
+## Current status
 <style scoped>
 .status-cards { display: flex; gap: 28px; margin-top: 28px; }
 .card {
