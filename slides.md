@@ -28,9 +28,13 @@ I15-1 User Meeting, July 2026
 
 ---
 
-```bash
-grep "^# " slides.md
-```
+**Introduction**
+**Science Advisory Committee Review**
+**Upgrades**
+**Detectors**
+**Software**
+**Critical Upgrades**
+**User Access & Diamond-II**
 
 ---
 
@@ -45,8 +49,8 @@ grep "^# " slides.md
 
 The **X-ray Pair Distribution Function (XPDF)** beamline
 
-- High-energy beam: **40, 65, 76 keV** (λ = 0.31, 0.19, 0.16 Å)
-- Total X-ray scattering: captures Bragg and diffuse scattering
+- High-energy beam: **40, 65, 76 keV**<br>(λ = 0.31, 0.19, 0.16 Å)
+- Total scattering: captures Bragg and diffuse scattering
 
 ---
 
@@ -149,6 +153,24 @@ Currently five full-time staff support operations on I15-1
     <div class="bl-name">Small Molecule Single Crystal</div>
   </div>
 </div>
+
+---
+<style scoped>
+  a{
+  font-size: 1.0rem;
+  }
+</style>
+## Diamond-II
+![bg right:40% w:350](./assets/diamond-ii-tdr.png)
+- Machine
+- Beamlines
+- Controls, Data & Computation
+- Buildings & infrastructure 
+
+https://www.diamond.ac.uk/Diamond-II.html
+
+---
+![](./assets/diamond-ii-timeline.png)
 
 ---
 
@@ -517,14 +539,8 @@ _A Perkin Elmer Collection from 1mm silicon projected onto the Eiger_
 
 ![bg left:40% w:400](./assets/puck-box.jpg)
 ### What you will notice - sending pucks
-We're be starting to send pucks out for you to load the samples into in your home lab
+We'll be starting to send pucks out for you to load the samples into in your home lab
 _(we'll be starting with non-hazardous, local samples!)_
-
----
-
-
-- Current status: [components deployed / in testing / rolled out to users]
-- What users will notice: [improved automation, data acquisition, GDA interface — fill in specifics]
 
 ---
 
@@ -533,119 +549,166 @@ _(we'll be starting with non-hazardous, local samples!)_
 
 ---
 
-crystal cage
+## Crystal cage
+![bg right:40% h:400](./assets/cage-overview.png)
+- We're upgrading the core part of the monochromator
+- Should yield better energy switching and reliability
+
+---
+## High heatload components
+- Primary slits
+- Side beam absorber
+- Primary attenuator
 
 ---
 
-front end components, primary slits
-
----
-
-# User Access
+# User Access<br>& Diamond-II
 ![bg](./assets/dls.png)
-Access no
 
 ---
 
 
-## Access Through End of Diamond-I
+## Allocation Period 41
 
 - **AP41** — final standard proposal call, deadline **30 September 2026**
-- [Any rapid-access, BAG, or commissioning time mechanisms still available]
-- Advice: prioritise experiments that need Diamond-I capabilities or that underpin Diamond-II publications
-- Contact: xpdf@diamond.ac.uk for scheduling questions
-- [Any notes on restricted modes or reduced capacity in the run-up to shutdown]
+- AP41 is planned to be longer than usual, but is already loaded with AP39 cancellations
+
 
 ---
 
 ## The Dark Period
 
-- Facility shutdown for Diamond-II construction begins **[date]**
-- Expected duration: **[timeline]**
-- I15-1 during shutdown: [preserved in place / decommissioned / folded into Diamond-II scope]
-- **I15-1 in Diamond-II**: [upgraded capabilities, name change, new energy range — whatever is settled]
-- In the meantime: [other facilities, data analysis backlog, publication push]
-- Stay informed: [mailing list, website, contact]
+- Facility shutdown for Diamond-II construction begins **December 2027**
+- Expected duration: **~18 months**
+- I15-1 during shutdown: data analysis, paper writing, replying to emails, secondments...
+
+---
+## I15-1 Timeline
+<style scoped>
+h2 { margin-bottom: 40px; }
+.tl { margin: 0 10px; }
+.tl-above { position: relative; height: 52px; }
+.tl-pt { position: absolute; bottom: 0; transform: translateX(-50%); text-align: center; }
+.tl-pt .pt-name { display: block; font-size: 0.62em; font-weight: bold; white-space: nowrap; line-height: 1.3; }
+.tl-pt .pt-arr { display: block; font-size: 11px; }
+.tl-axis { position: relative; height: 4px; background: #555; }
+.tl-axis::after { content: ''; position: absolute; right: -12px; top: -5px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 12px solid #555; }
+.tl-tick { position: absolute; top: -3px; width: 2px; height: 10px; background: #ccc; transform: translateX(-50%); }
+.tl-rows { margin-top: 8px; }
+.tl-row { position: relative; height: 27px; margin-bottom: 5px; }
+.tl-bar { position: absolute; height: 27px; border-radius: 5px; }
+.tl-bar-label-in { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 0.7em; font-weight: bold; white-space: nowrap; pointer-events: none; }
+.tl-bar-label-out { position: absolute; top: 50%; transform: translateY(-50%); font-size: 0.63em; font-weight: bold; white-space: nowrap; }
+.tl-months { position: relative; height: 20px; margin-top: 6px; }
+.tl-mo { position: absolute; transform: translateX(-50%); font-size: 0.54em; color: #999; white-space: nowrap; }
+</style>
+
+<div class="tl">
+  <div class="tl-above">
+    <div class="tl-pt" style="left:5%">
+      <span class="pt-name" style="color:var(--diamond-primary)">User Meeting</span>
+      <span class="pt-arr" style="color:var(--diamond-primary)">▼</span>
+    </div>
+    <div class="tl-pt" style="left:20%">
+      <span class="pt-name" style="color:var(--diamond-alt-green)"><b>AP41 deadline</b><br><span style="font-weight:normal;font-size:0.9em">30 Sep 2026</span></span>
+      <span class="pt-arr" style="color:var(--diamond-alt-green)">▼</span>
+    </div>
+  </div>
+  <div class="tl-axis">
+    <div class="tl-tick" style="left:5%"></div>
+    <div class="tl-tick" style="left:15%"></div>
+    <div class="tl-tick" style="left:25%"></div>
+    <div class="tl-tick" style="left:35%"></div>
+    <div class="tl-tick" style="left:45%"></div>
+    <div class="tl-tick" style="left:55%"></div>
+    <div class="tl-tick" style="left:65%"></div>
+    <div class="tl-tick" style="left:75%"></div>
+    <div class="tl-tick" style="left:85%"></div>
+  </div>
+  <div class="tl-rows">
+    <div class="tl-row">
+      <div class="tl-bar" style="left:10%;width:5%;background:var(--diamond-alt-orange)"></div>
+      <span class="tl-bar-label-out" style="left:15.5%;color:var(--diamond-alt-orange)">Wiggler reinstallation</span>
+    </div>
+    <div class="tl-row">
+      <div class="tl-bar" style="left:15%;width:5%;background:var(--diamond-alt-red)"></div>
+      <span class="tl-bar-label-out" style="left:20.5%;color:var(--diamond-alt-red)">Eiger commissioning</span>
+    </div>
+    <div class="tl-row">
+      <div class="tl-bar" style="left:20%;width:25%;background:var(--diamond-alt-cyan)"></div>
+      <span class="tl-bar-label-in" style="left:32.5%">AP40</span>
+    </div>
+    <div class="tl-row">
+      <div class="tl-bar" style="left:50%;width:40%;background:var(--diamond-alt-green)"></div>
+      <span class="tl-bar-label-in" style="left:70%">AP41</span>
+    </div>
+    <div class="tl-row">
+      <div class="tl-bar" style="left:28%;width:55%;background:var(--diamond-alt-violet)"></div>
+      <span class="tl-bar-label-in" style="left:55.5%">Rapid Access</span>
+    </div>
+  </div>
+  <div class="tl-months">
+    <div class="tl-mo" style="left:5%">Jul '26</div>
+    <div class="tl-mo" style="left:15%">Sep '26</div>
+    <div class="tl-mo" style="left:25%">Nov '26</div>
+    <div class="tl-mo" style="left:35%">Jan '27</div>
+    <div class="tl-mo" style="left:45%">Mar '27</div>
+    <div class="tl-mo" style="left:55%">May '27</div>
+    <div class="tl-mo" style="left:65%">Jul '27</div>
+    <div class="tl-mo" style="left:75%">Sep '27</div>
+    <div class="tl-mo" style="left:85%">Nov '27</div>
+  </div>
+</div>
+
+
+
+
+
+
+---
+![bg](./assets/stfc.png)
+
+---
+> Overall, the multidisciplinary facilities budget will reduce by 15% over four years through making efficiency savings in how STFC operates the three major facilities on behalf of UKRI and deliberate choices to prioritise critical capability.
 
 ---
 
-funding? the news, the email from gianluigi
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-![bg](./assets/dls.png)
-
-## List of things
-Normal markdown rules apply:
-
-It helps us keep track of: 
-- things
-- other things
-- those things over there
-- and more! :o: :smiley: :white_check_mark:
-
----
-- some things need a reference†
-- and sometimes you need maths inline $x=y^2$ or in a block:
-$$\begin{aligned}\mathbf{Q} &= \mathbf{k}_f - \mathbf{k}_i \\
-Q &= \vert\mathbf{Q}\vert\end{aligned} $$
-
- <!-- _footer: †Keeble et. al Appl. Phys. Lett. 102, 092903 (2013) --> 
-
----
-
-### and some things need to be in a table
-
-Fruit | Colour | Amount | Cost
------|------|:-----:|------:
-Banana &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Yellow | 4 | £1.00
-Apple | Red | 2 | £0.60
-Orange | Orange &nbsp; &nbsp; &nbsp; | 10 | £2.50
-Coconut | Brown | 1 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; £1.50
+User Webinar on Wednesday 14 October 2026 at 13:00 (UTC)
+![bg left ](./assets/diamond-user-webinar.png)
 
 ---
 
 <style scoped>
-  p { text-align: center; }
+.team-grid { display: flex; gap: 70px; margin-top: 16px; justify-content: center; }
+.team-item { flex: 1; max-width: 270px; text-align: center; }
+.team-item img { width: 125px; height: 164px; object-fit: cover; border-radius: 6px; display: block; margin: 0 auto; }
+.team-item .nophoto { width: 95px; height: 124px; background: #ccc; border-radius: 6px; margin: 0 auto; }
+.team-name { font-size: 0.75em; font-weight: bold; margin-top: 7px; }
+.team-role { font-size: 0.6em; color: #555; margin-top: 2px; line-height: 1.3; }
 </style>
-...and sometimes
-you want to temporarily
-modify something
+
+- In the meantime, please reach out to the Diamond User Committee to find out how you can support and advocate for Diamond.
+&nbsp;
+<div class="team-grid">
+  <div class="team-item">
+    <img src="./assets/duc-luke-daniels.webp" alt="Luke Daniels">
+    <div class="team-name">Luke Daniels</div>
+    <div class="team-role">University of Liverpool</div>
+    <div class="team-role">L.M.Daniels@liverpool.ac.uk</div>
+  </div>
+  <div class="team-item">
+    <img src="./assets/duc_gary_nichol.jpeg" alt="Gary Nichol">
+    <div class="team-name">Gary Nichol</div>
+    <div class="team-role">University of Edinburgh</div>
+    <div class="team-role">g.s.nichol@ed.ac.uk</div>
+  </div>
+</div>
 
 ---
 
-![masked](./assets/i15-1.png)
-sometimes it's fun to abuse css
+<!-- _class: lower-heading -->
+![bg](./assets/h3.png)
 
----
- fitting long lines to page width
-#### <!--fit--> https://www.diamond.ac.uk/Instruments/Crystallography/I19/Manual/EH1.html
+# Beamline Update
+Dean Keeble
+I15-1 User Meeting, July 2026
