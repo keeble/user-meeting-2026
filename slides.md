@@ -593,7 +593,7 @@ h2 { margin-bottom: 40px; }
 .tl-pt .pt-arr { display: block; font-size: 11px; }
 .tl-axis { position: relative; height: 4px; background: #555; }
 .tl-axis::after { content: ''; position: absolute; right: -12px; top: -5px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 12px solid #555; }
-.tl-tick { position: absolute; top: -3px; width: 2px; height: 10px; background: #ccc; transform: translateX(-50%); }
+.tl-tick { position: absolute; top: -3px; width: 2px; height: 10px; background: #555; transform: translateX(-50%); }
 .tl-rows { margin-top: 8px; }
 .tl-row { position: relative; height: 27px; margin-bottom: 5px; }
 .tl-bar { position: absolute; height: 27px; border-radius: 5px; }
