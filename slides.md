@@ -302,7 +302,7 @@ h2 { margin-bottom: 8px; }
 ---
 ![bg right:30%](./assets/motion-rack.jpeg)
 ### Motion/RIO controllers
-
+_March - June, 2026_
 - Successfully completed a major modernisation of the I15/I15-1 controls infrastructure
 - Increased reliability and operational independence of both beamlines
 
@@ -327,7 +327,7 @@ h2 { margin-bottom: 8px; }
 ![bg left:40%](./assets/wiggler_new.png)
 
 - In late 2025, DLS took delivery of a spare wiggler
-- It has higher potential output so commissioning includes health physics etc.
+- It has higher potential output so commissioning is a substantial job.
 
 ---
 
@@ -342,6 +342,7 @@ h2 { margin-bottom: 8px; }
 ---
 
 ### Wiggler(s) - current
+_Wiggler removed June - Aug 2026_
 >_As far as we can test before filling with LHe the wiggler looks fine._
 ![bg left:56%](./assets/wiggler_current.jpeg)
 
@@ -390,10 +391,10 @@ On the 10th July 2018, the CEO signed a proposal for an ambitious angularly-reso
 
 ---
 
- &nbsp;| model | sensor <br>thickness | pixel<br>size | frame<br>rate |  coverage | width
-:-----:|:------|:-----|:------|:------|:---|---
-![h:150](./assets/eiger.webp) | Eiger2 X CdTe | 750&nbsp;um | 75&nbsp;um | 4.5&nbsp;kHz | 17° | 38.4&nbsp;mm
-![h:150](./assets/arc.jpg)| ARC CdTe| 1000&nbsp;um | 55&nbsp;um | 25&nbsp;Hz | 109° or 18° | 42.2&nbsp;mm
+ &nbsp;| model | contact | sensor <br>thickness | pixel<br>size | frame<br>rate |  coverage | width
+:-----:|---|:------|:-----|:------|:------|:---|---
+![w:150](./assets/eiger.webp) | Eiger2 X CdTe | Ohmic | 750&nbsp;um | 75&nbsp;um | 4.5&nbsp;kHz | 17° | 38.4&nbsp;mm
+![w:150](./assets/arc.jpg)| ARC CdTe| Schottky | 1000&nbsp;um | 55&nbsp;um | 25&nbsp;Hz | 109° or 18° | 42.2&nbsp;mm
 
 ---
 <style scoped>
@@ -544,6 +545,7 @@ _(we'll be starting with non-hazardous, local samples!)_
 ---
 
 # Critical<br>Upgrades
+Preparation for Diamond-II
 ![masked w:850](./assets/optics_hutch.jpeg)
 
 ---
@@ -596,6 +598,7 @@ h2 { margin-bottom: 40px; }
 .tl-rows { margin-top: 8px; }
 .tl-row { position: relative; height: 27px; margin-bottom: 5px; }
 .tl-bar { position: absolute; height: 27px; border-radius: 5px; }
+.tl-bar-taper { position: absolute; height: 27px; clip-path: polygon(0% 0%, 0% 100%, 100% 100%); }
 .tl-bar-label-in { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 0.7em; font-weight: bold; white-space: nowrap; pointer-events: none; }
 .tl-bar-label-out { position: absolute; top: 50%; transform: translateY(-50%); font-size: 0.63em; font-weight: bold; white-space: nowrap; }
 .tl-months { position: relative; height: 20px; margin-top: 6px; }
@@ -631,7 +634,12 @@ h2 { margin-bottom: 40px; }
     </div>
     <div class="tl-row">
       <div class="tl-bar" style="left:15%;width:5%;background:var(--diamond-alt-red)"></div>
-      <span class="tl-bar-label-out" style="left:20.5%;color:var(--diamond-alt-red)">Eiger commissioning</span>
+      <span class="tl-bar-label-out" style="left:15%;transform:translate(-103%,-50%);text-align:right;color:var(--diamond-alt-red)">Eiger commissioning</span>
+    </div>
+    <div class="tl-row">
+      <div class="tl-bar" style="left:20%;width:15%;background:var(--diamond-primary);border-radius:5px 0 0 5px"></div>
+      <div class="tl-bar-taper" style="left:34.9%;width:25%;background:var(--diamond-primary)"></div>
+      <span class="tl-bar-label-out" style="left:20%;transform:translate(-103%,-50%);text-align:right;color:var(--diamond-primary)">ARClet commissioning</span>
     </div>
     <div class="tl-row">
       <div class="tl-bar" style="left:20%;width:25%;background:var(--diamond-alt-cyan)"></div>
